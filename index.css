@@ -1,0 +1,47 @@
+:root {
+    --red: #F54932;
+    --beige: #E9DED4;
+    --yellow: #FFC107;
+    --black: #313131;
+    --black-btn: #1F1F1F;
+    --blue: #3057A2;
+    --grey-70: rgba(49, 49, 49, 0.7);
+    --grey-60: rgba(49, 49, 49, 0.6);
+}
+
+.hero {
+    background-color: var(--beige);
+}
+
+.header {
+
+}
+
+.btn {
+    background-color: transparent;
+    height: 72px;
+    border-radius: 50px;
+
+    .black {
+        background-color: var(--black-btn);
+        color: white;
+    }
+
+    .ghost {
+        color: black;
+        border: black solid 2px;
+    }
+}
+
+.running-text {
+    background-color: var(--red);
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+    span {
+        color: white;
+    }
+}
